@@ -8,4 +8,5 @@
 package com.niit.jdp.config;
 
 public class MovieConfig {
+
 }
