@@ -12,4 +12,6 @@ public class Movie {
     private String movieLanguage;
     private String movieReleaseYear;
 
+    public Movie() {
+    }
 }
