@@ -44,4 +44,13 @@ public class Movie {
     public void setMovieReleaseYear(String movieReleaseYear) {
         this.movieReleaseYear = movieReleaseYear;
     }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "movieName='" + movieName + '\'' +
+                ", movieLanguage='" + movieLanguage + '\'' +
+                ", movieReleaseYear='" + movieReleaseYear + '\'' +
+                '}';
+    }
 }
