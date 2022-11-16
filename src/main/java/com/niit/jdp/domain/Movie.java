@@ -20,4 +20,28 @@ public class Movie {
         this.movieLanguage = movieLanguage;
         this.movieReleaseYear = movieReleaseYear;
     }
+
+    public String getMovieName() {
+        return movieName;
+    }
+
+    public void setMovieName(String movieName) {
+        this.movieName = movieName;
+    }
+
+    public String getMovieLanguage() {
+        return movieLanguage;
+    }
+
+    public void setMovieLanguage(String movieLanguage) {
+        this.movieLanguage = movieLanguage;
+    }
+
+    public String getMovieReleaseYear() {
+        return movieReleaseYear;
+    }
+
+    public void setMovieReleaseYear(String movieReleaseYear) {
+        this.movieReleaseYear = movieReleaseYear;
+    }
 }
