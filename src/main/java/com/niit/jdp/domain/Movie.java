@@ -8,4 +8,8 @@
 package com.niit.jdp.domain;
 
 public class Movie {
+    private String movieName;
+    private String movieLanguage;
+    private String movieReleaseYear;
+
 }
