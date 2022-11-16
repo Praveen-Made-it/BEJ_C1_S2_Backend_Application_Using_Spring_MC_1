@@ -14,4 +14,10 @@ public class Movie {
 
     public Movie() {
     }
+
+    public Movie(String movieName, String movieLanguage, String movieReleaseYear) {
+        this.movieName = movieName;
+        this.movieLanguage = movieLanguage;
+        this.movieReleaseYear = movieReleaseYear;
+    }
 }
