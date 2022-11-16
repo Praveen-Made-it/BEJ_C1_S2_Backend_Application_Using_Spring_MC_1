@@ -17,4 +17,8 @@ public class MovieConfig {
         return new Movie("Vikram", "Tamil", "2022");
     }
 
+    @Bean("movie2")
+    public Movie getMovie1() {
+        return new Movie("Tenent", "English", "2020");
+    }
 }
